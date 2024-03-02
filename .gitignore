@@ -1,0 +1,7 @@
+.temp_result/*
+__pycache__/*
+test_batch/*
+test_imgs/*
+cv_fft_inpainting_lama/*
+*.png
+*.jpg
