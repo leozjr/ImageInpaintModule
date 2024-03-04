@@ -1,4 +1,3 @@
-from PyQt5 import QtWidgets
 from PyQt5.QtCore import QThread, pyqtSignal
 from modelscope.outputs import OutputKeys
 from modelscope.pipelines import pipeline
@@ -8,7 +7,6 @@ import cv2
 import os
 
 from PyQt5.QtCore import QThreadPool, QRunnable
-import functools
 
 class InpaintBatchTask(QRunnable):
     def __init__(self, inpainting, input_data, save_path, callback):
