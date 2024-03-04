@@ -34,7 +34,7 @@ pip install "modelscope[cv]" -f https://modelscope.oss-cn-beijing.aliyuncs.com/r
 
 Main.py为程序入口，开始运行后，进入主窗口，其基本功能为图像查看器
 
-[![alt text](./attachments/image.png)](./attachments/image.png =400x300)
+![alt text](./attachments/image.png)
 
 功能1：绘制和保存Mask
 
